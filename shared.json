@@ -1,0 +1,20 @@
+{
+	"shreds" : [
+		{
+			"metadata" : {
+				"profiles": "test"
+			},
+			"config": {
+				"a":"b"
+			}
+		},
+		{
+			"metadata" : {
+				"profiles": "prod"
+			},
+			"config": {
+				"x":"y"
+			}
+		}
+	]
+}

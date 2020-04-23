@@ -1,0 +1,21 @@
+{
+	"shreds" : [
+		{
+			"metadata" : {
+				"profiles": "prod|dev"
+			},
+			"config": {
+				"a":"b"
+			}
+		},
+		{
+			"metadata" : {
+				"profiles": "prod"
+			},
+			"config": {
+				"c":"d",
+				"foreign": "$$shared$$"
+			}
+		}
+	]
+}
